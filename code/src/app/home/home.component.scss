@@ -1,0 +1,55 @@
+.main {
+  padding-left: 200px;
+
+  .graph-list {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    ul {
+      background-color: var(--light-color);
+      width: max-content;
+      list-style: none;
+      margin: 0 !important;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      border-radius: 25px;
+      li {
+        cursor: pointer;
+        padding: 5px 0;
+        width: 140px;
+        text-align: center;
+        margin: 0 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s ease-in-out;
+        .rectangular {
+          .one {
+            margin-bottom: 2px;
+          }
+          div {
+            width: 20px;
+            height: 9px;
+            border: solid 2px black;
+            border-radius: 20px;
+            margin-right: 7px;
+          }
+        }
+      }
+      .active {
+        background-color: var(--orange-color);
+        border-radius: 25px;
+        color: var(--light-color);
+        .rectangular {
+          div {
+            border: solid 2px var(--light-color);
+          }
+        }
+      }
+    }
+  }
+
+  
+}

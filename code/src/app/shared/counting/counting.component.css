@@ -1,0 +1,93 @@
+.row {
+  margin-top: 50px;
+}
+.row .item {
+  background-color: var(--light-color);
+  border-radius: 24px;
+  padding: 25px 35px;
+}
+.row .item .num {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 45px;
+}
+.row .item .num h3 {
+  font: normal normal normal 30px/53px Roboto;
+  color: #3d5161;
+}
+.row .item .num .egp {
+  font: normal normal normal 18px/53px Roboto;
+  color: #3d5161;
+  text-transform: uppercase;
+  margin: 0 0 0 10px;
+}
+.row .item sub {
+  font-size: 18px;
+  color: #3d5161;
+  margin: 0 0 10px 10px;
+}
+.row .item sup {
+  font-size: 10px;
+  color: #3d5161;
+  margin-bottom: 10px;
+}
+.row .item .t-val {
+  margin: 0 0 5px 0;
+  padding: 0;
+  height: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font: "Montserrat";
+  color: #3d5161;
+  line-height: 18px;
+}
+.row .item .percent {
+  margin: 20px 0 0 0 !important;
+  padding: 0 !important;
+  font-size: 14px;
+  color: var(--orange-color);
+  display: flex;
+  align-items: center;
+}
+.row .item .percent .icon {
+  margin-right: 10px;
+  font-size: 20px !important;
+}
+.row .item .percent sub {
+  font: normal normal normal 16px/21px Roboto;
+  color: #3d5161;
+  margin: 0;
+}
+.row .item .percent sup {
+  font: normal normal normal 12px/16px Roboto;
+  color: #3d5161;
+}
+.row .first {
+  background: #f4dbd4 0% 0% no-repeat padding-box;
+}
+.row .second .percent,
+.row .fourth .percent,
+.row .third .percent {
+  display: flex;
+  justify-content: start;
+  color: #00cbc0;
+}
+.row .second .percent sup,
+.row .fourth .percent sup,
+.row .third .percent sup {
+  color: #00cbc0;
+}
+.row .second .percent span,
+.row .fourth .percent span,
+.row .third .percent span {
+  margin-left: 5px;
+}
+.row .third .percent {
+  color: var(--orange-color);
+}
+.row .third .percent sup {
+  color: var(--orange-color);
+}/*# sourceMappingURL=counting.component.css.map */

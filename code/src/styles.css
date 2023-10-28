@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Cairo:wght@300;400&family=Lato:wght@100&family=Montserrat+Alternates:wght@200;300&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Cairo:wght@300;400&family=Lato:wght@100&family=Montserrat+Alternates:wght@200;300&family=Montserrat:wght@200&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body {
+  background: var(--bg-color);
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --orange-color: #ff7f5c;
+  --bg-color: #f9f5f3;
+  --light-color: #fff;
+}/*# sourceMappingURL=styles.css.map */

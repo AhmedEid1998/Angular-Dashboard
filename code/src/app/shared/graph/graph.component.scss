@@ -1,0 +1,70 @@
+.graph-comp {
+    background-color: var(--light-color);
+    border-radius: 16px;
+    padding: 10px 20px;
+    .title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      z-index: 9;
+      padding: 0;
+      h3 {
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 2px;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        width: 45%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        li {
+          cursor: pointer;
+          padding: 10px 0;
+          text-transform: uppercase;
+          font-size: 14px;
+          font-weight: bold;
+          color: #3d5161;
+          letter-spacing: 1px;
+        }
+        .active {
+          color: var(--orange-color);
+          position: relative;
+          &::after {
+            content: "";
+            height: 3px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            border-radius: 25px;
+            background-color: var(--orange-color);
+            z-index: 2;
+          }
+        }
+      }
+      &::after {
+        content: "";
+        height: 3px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: var(--bg-color);
+      }
+    }
+
+    text{
+      font-size: 8px;
+    }
+
+    path{
+      background-color: red !important;
+      color: red !important;
+
+    }
+  }

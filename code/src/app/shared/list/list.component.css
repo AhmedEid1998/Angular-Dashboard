@@ -1,0 +1,95 @@
+.list-comp {
+  height: 380px;
+  overflow: scroll;
+  padding-right: 10px;
+}
+.list-comp .item {
+  background-color: var(--light-color);
+  border-radius: 16px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+.list-comp .item .title {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+}
+.list-comp .item .title .left {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.list-comp .item .title .left .point {
+  width: 10px;
+  height: 10px;
+  background-color: var(--orange-color);
+  border-radius: 50%;
+  padding: 0 !important;
+  margin-right: 10px;
+}
+.list-comp .item .title .left h3 {
+  margin: 0 0 0 10px;
+  color: #3d5161;
+  padding-right: 0 !important;
+  font-size: 25px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bolder;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+.list-comp .item .title .icon {
+  cursor: pointer;
+  color: #3d5161;
+}
+.list-comp .item .title::after {
+  content: "";
+  background-color: var(--bg-color);
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.list-comp .item .details {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+.list-comp .item .details .val {
+  width: 70%;
+  font: normal normal bold Montserrat;
+  color: #000;
+  font-weight: bolder;
+  text-transform: capitalize;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+.list-comp .item .details .det {
+  width: 30%;
+  text-align: start;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: #3d5161;
+}
+.list-comp .item .details .det span {
+  font: normal normal medium 5px/10px Montserrat;
+  margin-left: 3px;
+}
+.list-comp .item .details .det span sup {
+  font: normal normal medium 5px/10px Montserrat;
+}
+.list-comp::-webkit-scrollbar {
+  width: 3px;
+}
+.list-comp::-webkit-scrollbar-thumb {
+  background-color: var(--orange-color);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}/*# sourceMappingURL=list.component.css.map */

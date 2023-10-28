@@ -1,0 +1,121 @@
+.main {
+  background: var(--light-color);
+  top: 0px;
+  left: 0px;
+  height: 100px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.main .row {
+  display: flex;
+}
+.main .row .monitored *,
+.main .row .last-update * {
+  padding: 0 10px !important;
+  margin: 0 !important;
+}
+.main .row .monitored .point,
+.main .row .last-update .point {
+  width: 10px;
+  height: 10px;
+  background-color: var(--orange-color);
+  border-radius: 50%;
+  padding: 0 !important;
+}
+.main .row .monitored h3,
+.main .row .last-update h3 {
+  color: #3d5161;
+  font: normal normal normal 32px/1 Roboto;
+  padding-right: 0 !important;
+  font-size: 25px;
+}
+.main .row .monitored p,
+.main .row .last-update p {
+  font-size: 13px;
+  letter-spacing: 15;
+  color: #3d5161;
+  line-height: 12px;
+}
+.main .row .monitored {
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.main .row .last-update {
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.main .row .nav-days {
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  padding: 1px;
+  margin: 0 90px;
+  border-radius: 25px;
+}
+.main .row .nav-days ul {
+  list-style: none;
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 1px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+}
+.main .row .nav-days ul li {
+  border-radius: 25px;
+  padding: 2px 15px;
+  color: #3d5161;
+}
+.main .row .nav-days ul li a {
+  text-decoration: none;
+  font: normal normal bold 14px/18px Montserrat;
+  letter-spacing: 1.4px;
+  color: #3d5161;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.main .row .nav-days ul .active {
+  background-color: var(--orange-color);
+}
+.main .row .nav-days ul .active a {
+  color: var(--light-color) !important;
+}
+.main .row .start-date,
+.main .row .end-date {
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+  align-items: center;
+}
+.main .row .start-date .icon,
+.main .row .end-date .icon {
+  color: var(--orange-color);
+  margin-right: 5px;
+}
+.main .row .start-date .date input,
+.main .row .end-date .date input {
+  color: #3d5161;
+  font-size: 13px;
+  border: none;
+  position: relative;
+}
+.main .row .start-date .date input::after,
+.main .row .end-date .date input::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #3d5161;
+}/*# sourceMappingURL=top-details.component.css.map */

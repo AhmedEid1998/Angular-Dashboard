@@ -1,0 +1,111 @@
+.main {
+  padding-left: 200px;
+}
+.main .graph-list {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.main .graph-list ul {
+  background-color: var(--light-color);
+  width: -moz-max-content;
+  width: max-content;
+  list-style: none;
+  margin: 0 !important;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+}
+.main .graph-list ul li {
+  cursor: pointer;
+  padding: 5px 0;
+  width: 140px;
+  text-align: center;
+  margin: 0 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+}
+.main .graph-list ul li .rectangular .one {
+  margin-bottom: 2px;
+}
+.main .graph-list ul li .rectangular div {
+  width: 20px;
+  height: 9px;
+  border: solid 2px black;
+  border-radius: 20px;
+  margin-right: 7px;
+}
+.main .graph-list ul .active {
+  background-color: var(--orange-color);
+  border-radius: 25px;
+  color: var(--light-color);
+}
+.main .graph-list ul .active .rectangular div {
+  border: solid 2px var(--light-color);
+}
+.main .graph-comp {
+  background-color: var(--light-color);
+  border-radius: 16px;
+  padding: 10px 20px;
+}
+.main .graph-comp .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 0;
+}
+.main .graph-comp .title h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.main .graph-comp .title ul {
+  list-style: none;
+  padding: 0;
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.main .graph-comp .title ul li {
+  cursor: pointer;
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  color: #3d5161;
+  letter-spacing: 1px;
+}
+.main .graph-comp .title ul .active {
+  color: var(--orange-color);
+  position: relative;
+}
+.main .graph-comp .title ul .active::after {
+  content: "";
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 25px;
+  background-color: var(--orange-color);
+  z-index: 2;
+}
+.main .graph-comp .title::after {
+  content: "";
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--bg-color);
+}
+.main .graph-comp text {
+  font-size: 12px;
+}/*# sourceMappingURL=home.component.css.map */

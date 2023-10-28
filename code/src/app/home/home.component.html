@@ -1,0 +1,35 @@
+<app-nav></app-nav>
+
+<app-top-details></app-top-details>
+
+<div class="container-fluid main">
+  <div class="row">
+    <div class="col-lg-8">
+      <app-counting></app-counting>
+
+      <div class="graph-list">
+        <ul>
+            <li routerLink="graph" routerLinkActive="active">
+                <i class="fa-solid fa-signal me-2"></i> Graph
+            </li>
+            <li routerLink="list" routerLinkActive="active">
+                <div class="rectangular">
+                    <div class="one"></div>
+                    <div></div>
+                </div>
+                <span>List</span>
+            </li>
+        </ul>
+      </div>
+
+      <router-outlet></router-outlet>
+      
+    </div>
+
+    <div class="col-lg-4">
+
+      <app-right-rating></app-right-rating>
+      
+    </div>
+  </div>
+</div>
